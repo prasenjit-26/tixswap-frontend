@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-button {
+  background: linear-gradient(
+    90deg,
+    rgba(174, 68, 90, 1) 0%,
+    rgba(75, 67, 118, 1) 46%
+  );
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}

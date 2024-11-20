@@ -1,0 +1,25 @@
+{
+  "short_name": "TIX-SWAP",
+  "name": "TIX-SWAP",
+  "description": "Welcome to TIX-SWAP - where every seat tells a story.",
+  "icons": [
+    {
+      "src": "/vercel-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/vercel-icon-152x152.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#AE445A",
+  "orientation": "portrait"
+}
