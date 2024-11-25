@@ -32,6 +32,26 @@ export default function RootLayout({
   return (
     <html lang="en" className="light">
       <head>
+
+        <title>TIX-SWAP</title>
+        <meta name="description" content="Welcome to TIX-SWAP - where every seat tells a story." />
+
+
+        <meta property="og:url" content="https://tixswap.netlify.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="TIX-SWAP" />
+        <meta property="og:description" content="Welcome to TIX-SWAP - where every seat tells a story." />
+        <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/d45285db-b580-4a3e-b820-028a4b1b7c3b.jpg?token=fNxVl-Jq8HIwinMeDDBww5ibIqhVvrTKcsn5rOKkwCQ&height=630&width=1200&expires=33268544120" />
+
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="tixswap.netlify.app" />
+        <meta property="twitter:url" content="https://tixswap.netlify.app/" />
+        <meta name="twitter:title" content="TIX-SWAP" />
+        <meta name="twitter:description" content="Welcome to TIX-SWAP - where every seat tells a story." />
+        <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/d45285db-b580-4a3e-b820-028a4b1b7c3b.jpg?token=fNxVl-Jq8HIwinMeDDBww5ibIqhVvrTKcsn5rOKkwCQ&height=630&width=1200&expires=33268544120" />
+
+
         <Script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module" />
       </head>
       <body className={inter.className}>
