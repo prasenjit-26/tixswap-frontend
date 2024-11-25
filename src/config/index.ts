@@ -80,4 +80,4 @@ export const HOW_IT_WORKS = {
     "We do not support or participate in black market sells - List at MRP or lower price",
   ],
 };
-export const API_URL = 'http://localhost:3001'
+export const API_URL = "https://tixswap-85835cb658bc.herokuapp.com";

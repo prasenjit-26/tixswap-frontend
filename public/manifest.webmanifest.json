@@ -4,13 +4,13 @@
   "description": "Welcome to TIX-SWAP - where every seat tells a story.",
   "icons": [
     {
-      "src": "/vercel-icon-192x192.png",
+      "src": "/logo.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "/vercel-icon-152x152.png",
+      "src": "/logo.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
