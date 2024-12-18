@@ -188,7 +188,7 @@ export default function Blog({
                 exit={{ opacity: 0, scale: 0.95 }}
                 className="max-w-lg space-y-4 bg-white rounded-[20px] p-12 duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0"
               >
-                <DialogTitle className="text-[30px] text-[#AE445A] text-center font-bold">{modalInfo.title}</DialogTitle>
+                <DialogTitle className="text-[30px] text-[#ff914c] text-center font-bold">{modalInfo.title}</DialogTitle>
                 <Description className="text-center">{modalInfo.subtitle}</Description>
                 <div className="flex justify-center">
                   <button className='gradient-button shadow-xl' onClick={() => setShowModal(false)}>Close</button>
@@ -204,7 +204,7 @@ export default function Blog({
             <Image src={event.images[0]} alt={event.title} className='rounded-[12px]' />
             <div>
               <div className='flex items-center justify-center flex-col'>
-                <h1 className="text-3xl md:text-3xl text-center font-bold text-[#AE445A] mt-[20px]">
+                <h1 className="text-3xl md:text-3xl text-center font-bold text-[#ff914c] mt-[20px]">
                   {event.title}
                 </h1>
                 <p className="text-[16px] mt-[5px]">
@@ -215,7 +215,7 @@ export default function Blog({
                 <p className="text-[18px] text-center mt-[5px] font-bold">
                   {event.date} {event.time} Onwards
                 </p>
-                <p className="text-[18px] mt-[5px] text-center font-bold text-[#4B4376]">
+                <p className="text-[18px] mt-[5px] text-center font-bold text-[#0049b3]">
                   {event.venue}
                 </p>
               </div> */}
@@ -227,19 +227,19 @@ export default function Blog({
             <TabList className="flex gap-4">
               <Tab
                 key="buy"
-                className=" rounded-full text-[18px] px-[20px] py-[10px] font-semibold text-black focus:outline-none data-[selected]:bg-[#4B4376]/10 data-[hover]:bg-[#4B4376]/5 data-[selected]:data-[hover]:bg-[#4B4376]/10 data-[focus]:outline-1 data-[focus]:outline-black"
+                className=" rounded-full text-[18px] px-[20px] py-[10px] font-semibold text-black focus:outline-none data-[selected]:bg-[#0049b3]/10 data-[hover]:bg-[#0049b3]/5 data-[selected]:data-[hover]:bg-[#0049b3]/10 data-[focus]:outline-1 data-[focus]:outline-black"
               >
                 Buy Tickets
               </Tab>
               <Tab
                 key="sell"
-                className="rounded-full text-[18px] px-[20px] py-[10px] font-semibold text-black focus:outline-none data-[selected]:bg-[#4B4376]/10 data-[hover]:bg-[#4B4376]/5 data-[selected]:data-[hover]:bg-[#4B4376]/10 data-[focus]:outline-1 data-[focus]:outline-black"
+                className="rounded-full text-[18px] px-[20px] py-[10px] font-semibold text-black focus:outline-none data-[selected]:bg-[#0049b3]/10 data-[hover]:bg-[#0049b3]/5 data-[selected]:data-[hover]:bg-[#0049b3]/10 data-[focus]:outline-1 data-[focus]:outline-black"
               >
                 Sell Tickets
               </Tab>
             </TabList>
             <TabPanels className="mt-3">
-              <TabPanel key="buy" className="rounded-xl bg-[#4B4376]/5 p-[20px]">
+              <TabPanel key="buy" className="rounded-xl bg-[#0049b3]/5 p-[20px]">
                 <h1 className="text-3xl md:text-3xl text-center font-bold text-black mt-[20px] mb-[30px]">
                   Last Minute Plans?
                 </h1>
@@ -488,7 +488,7 @@ export default function Blog({
                   </button>
                 </div>
               </TabPanel>
-              <TabPanel key="sell" className="rounded-xl bg-[#4B4376]/5 p-[20px]">
+              <TabPanel key="sell" className="rounded-xl bg-[#0049b3]/5 p-[20px]">
                 <h1 className="text-3xl md:text-3xl text-center font-bold text-black mt-[20px] mb-[30px]">
                   Cancelled Your Plans?
                 </h1>
@@ -752,7 +752,7 @@ export default function Blog({
               </TabPanel>
             </TabPanels>
           </TabGroup>
-          <h1 className="text-4xl md:text-4xl text-center font-bold text-[#4B4376] mt-[20px] mb-[30px]">
+          <h1 className="text-4xl md:text-4xl text-center font-bold text-[#0049b3] mt-[20px] mb-[30px]">
             Venue Layout
           </h1>
           <Image src={event.venueLayout} alt={event.title} className='rounded-[12px]' />

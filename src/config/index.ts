@@ -4,27 +4,27 @@ import coldplay from "../assets/images/coldplay.jpg";
 import coldplayVenue from "../assets/images/coldplay-venue.jpeg"
 
 export const EVENT_DATA = [
-  {
-    id: "maroon-5-india-2024",
-    title: "Maroon 5 India 2024",
-    subtile: "Pop, Rock | English | 5yrs + | 5hrs",
-    date: "Tue 03 Dec 2024",
-    time: "3:00 PM",
-    venue: "Mahalaxmi Race Course: Mumbai",
-    city: "Mumbai",
-    cities: [
-      {
-        id: "mumbai",
-        name: "Mumbai",
-        dates: [{ id: "tue-03-dec-2024", date: "Tue 03 Dec 2024" }],
-      },
-    ],
-    about:
-      "<p> GRAMMY® Award-winning multiplatinum powerhouse Maroon 5, one of pop music’s most enduring artists and one of the 21st century’s biggest acts, makes its way to India for the first time ever! <br /> <br /> Coming off their current Las Vegas residency to Mumbai this December, the fans will experience an electrifying performance from one of the most enduring and successful bands of the 21st century, as Maroon 5 prepares to end the year on an unforgettable note. Maroon 5 has continued to captivate audiences world-over with their renowned high-energy performances and fans can expect nothing less in Mumbai. The concert will feature a setlist spanning their greatest hits and fan favourites, offering a once-in-a-lifetime experience. Including hits like ‘This Love’, ‘She Will Be Loved’, ‘Sugar’, ‘Girls Like You’ and more! <br /> <br /> The band’s incredible success includes a total of 50 Grammy and Billboard Music Award nominations and multi-platinum certifications in over 35 countries. Known for hits such as ‘Moves Like Jagger’, ‘Maps’ and ‘Payphone’, Maroon 5's catalogue of blockbuster tracks is eagerly anticipated by Indian fans. <br /> <br /> Book your tickets before they sell out!</p> ",
-    images: [marron5Img],
-    isLive: true,
-    venueLayout: maroon5layout,
-  },
+  // {
+  //   id: "maroon-5-india-2024",
+  //   title: "Maroon 5 India 2024",
+  //   subtile: "Pop, Rock | English | 5yrs + | 5hrs",
+  //   date: "Tue 03 Dec 2024",
+  //   time: "3:00 PM",
+  //   venue: "Mahalaxmi Race Course: Mumbai",
+  //   city: "Mumbai",
+  //   cities: [
+  //     {
+  //       id: "mumbai",
+  //       name: "Mumbai",
+  //       dates: [{ id: "tue-03-dec-2024", date: "Tue 03 Dec 2024" }],
+  //     },
+  //   ],
+  //   about:
+  //     "<p> GRAMMY® Award-winning multiplatinum powerhouse Maroon 5, one of pop music’s most enduring artists and one of the 21st century’s biggest acts, makes its way to India for the first time ever! <br /> <br /> Coming off their current Las Vegas residency to Mumbai this December, the fans will experience an electrifying performance from one of the most enduring and successful bands of the 21st century, as Maroon 5 prepares to end the year on an unforgettable note. Maroon 5 has continued to captivate audiences world-over with their renowned high-energy performances and fans can expect nothing less in Mumbai. The concert will feature a setlist spanning their greatest hits and fan favourites, offering a once-in-a-lifetime experience. Including hits like ‘This Love’, ‘She Will Be Loved’, ‘Sugar’, ‘Girls Like You’ and more! <br /> <br /> The band’s incredible success includes a total of 50 Grammy and Billboard Music Award nominations and multi-platinum certifications in over 35 countries. Known for hits such as ‘Moves Like Jagger’, ‘Maps’ and ‘Payphone’, Maroon 5's catalogue of blockbuster tracks is eagerly anticipated by Indian fans. <br /> <br /> Book your tickets before they sell out!</p> ",
+  //   images: [marron5Img],
+  //   isLive: true,
+  //   venueLayout: maroon5layout,
+  // },
   {
     id: "coldplay-music-of-the-spheres-world-tour",
     title: "Coldplay: Music Of The Spheres World Tour",

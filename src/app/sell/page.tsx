@@ -145,7 +145,7 @@ export default function Sell() {
                 exit={{ opacity: 0, scale: 0.95 }}
                 className="max-w-lg space-y-4 bg-white rounded-[20px] p-12 duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0"
               >
-                <DialogTitle className="text-[30px] text-[#AE445A] text-center font-bold">{modalInfo.title}</DialogTitle>
+                <DialogTitle className="text-[30px] text-[#ff914c] text-center font-bold">{modalInfo.title}</DialogTitle>
                 <Description className="text-center">{modalInfo.subtitle}</Description>
                 <div className="flex justify-center">
                   <button className='gradient-button shadow-xl' onClick={() => setShowModal(false)}>Close</button>
@@ -159,7 +159,7 @@ export default function Sell() {
         <div>
           <div className='rounded-[22px] shadow-xl flex items-center justify-center flex-col p-[20px]'>
             <Image src={sellIcon} alt='Sell Icon' width={80} />
-            <h1 className="text-3xl md:text-3xl text-center text-[#4B4376] font-bold mt-[20px] mb-[20px]">
+            <h1 className="text-3xl md:text-3xl text-center text-[#0049b3] font-bold mt-[20px] mb-[20px]">
               Change of Plans?
             </h1>
             <ol className='list-decimal ml-[30px]'>

@@ -10,7 +10,7 @@ import Link from 'next/link'
 import {
   Bars4Icon
 } from '@heroicons/react/16/solid'
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/tix.png'
 import Image from "next/image";
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 // import ThemeSwitcher from "./ThemeSwitcher";
@@ -30,7 +30,7 @@ const AppNavBar = () => {
             <div className="flex items-center">
               <Image src={logo} alt="TIX-SWAP" width={45} />
               <p className="font-bold text-inherit ml-[15px] text-[20px]">
-                <span className="text-[#AE445A]">TIX</span>-<span className="text-[#4B4376]">SWAP</span>
+                <span className="text-[#ff914c]">TIX</span><span className="text-[#0049b3]">SWAP</span>
               </p>
             </div>
           </Link>
@@ -39,7 +39,7 @@ const AppNavBar = () => {
           <div className="w-52 text-right">
             <Menu>
               <MenuButton className="inline-flex items-center gap-2 rounded-md  py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[focus]:outline-1 data-[focus]:outline-white">
-                <Bars4Icon className="size-6 fill-[#4B4376]" />
+                <Bars4Icon className="size-6 fill-[#0049b3]" />
               </MenuButton>
 
               <MenuItems

@@ -20,6 +20,6 @@
   "background_color": "#FFFFFF",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#AE445A",
+  "theme_color": "#ff914c",
   "orientation": "portrait"
 }

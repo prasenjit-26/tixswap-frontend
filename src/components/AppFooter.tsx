@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/tix.png'
 import Image from "next/image";
 
 export default function AppFooter() {
@@ -19,7 +19,7 @@ export default function AppFooter() {
             <div className='flex flex-col justify-center'>
               <Image src={logo} alt="TIX-SWAP" width={45} />
               <h1 className="text-2xl md:text-4xl font-bold text-left mt-[15px]">
-                <span className="text-[#AE445A]">TIX</span>-<span className="text-[#4B4376]">SWAP</span>
+                <span className="text-[#ff914c]">TIX</span><span className="text-[#0049b3]">SWAP</span>
               </h1>
             </div>
             <p className="text-[20px] mt-[10px] text-left">
