@@ -453,12 +453,12 @@ export default function Blog({
 
                   <div>
                     <Field>
-                      <Label className="text-base font-medium text-black">Pirce</Label>
+                      <Label className="text-base font-medium text-black">Price</Label>
                       <Input
                         type='text'
                         value={buyFormData.price}
                         onChange={(event) => handleTextBoxChanges('price', event.target.value)}
-                        placeholder='Offer Pirce...'
+                        placeholder='Offer Price...'
                         className={clsx(
                           'mt-3 block w-full rounded-lg border-none bg-black/5 py-5 px-5 text-sm/3 text-black',
                           'focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-black/25'
@@ -702,10 +702,10 @@ export default function Blog({
 
                   <div>
                     <Field>
-                      <Label className="text-base font-medium text-black">Original Ticket Pirce Paid</Label>
+                      <Label className="text-base font-medium text-black">Original Ticket Price Paid</Label>
                       <Input
                         type='text'
-                        placeholder='Offer Pirce...'
+                        placeholder='Offer Price...'
                         value={buyFormData.price}
                         onChange={(event) => handleTextBoxChanges('price', event.target.value)}
                         className={clsx(

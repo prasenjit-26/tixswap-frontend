@@ -76,7 +76,7 @@ export const HOW_IT_WORKS = {
   seller: [
     "Fill up the form for the tickets you want to sell",
     "If we get a buyer as per your reuirement we'll connect to fullfill your order",
-    "We take 100% payment gurantee if tickets provided are genuine",
+    "We take 100% payment Guarantee if tickets provided are genuine",
     "We do not support or participate in black market sells - List at MRP or lower price",
   ],
 };

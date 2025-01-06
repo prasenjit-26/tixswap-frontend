@@ -437,10 +437,10 @@ export default function Sell() {
             </div>
             <div>
               <Field>
-                <Label className="text-base font-medium text-black">Original Ticket Pirce Paid</Label>
+                <Label className="text-base font-medium text-black">Original Ticket Price Paid</Label>
                 <Input
                   type='number'
-                  placeholder='Offer Pirce...'
+                  placeholder='Offer Price...'
                   value={formData.price}
                   onChange={(event) => handleTextBoxChanges('price', event.target.value)}
                   className={clsx(

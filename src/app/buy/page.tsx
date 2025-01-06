@@ -397,12 +397,12 @@ export default function Buy() {
 
             <div>
               <Field>
-                <Label className="text-base font-medium text-black">Pirce</Label>
+                <Label className="text-base font-medium text-black">Price</Label>
                 <Input
                   value={formData.price}
                   onChange={(event) => handleTextBoxChanges('price', event.target.value)}
                   type='number'
-                  placeholder='Offer Pirce...'
+                  placeholder='Offer Price...'
                   className={clsx(
                     'mt-3 block w-full rounded-lg border-none bg-black/5 py-5 px-5 text-sm/3 text-black',
                     'focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-black/25'
